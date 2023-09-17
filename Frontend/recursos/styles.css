@@ -1,0 +1,47 @@
+h1{
+    font-size: 48px;
+}
+body, h1, h2, h3{
+    font-family: 'Kaushan Script';
+    font-weight: 500;
+}
+body{
+    background-color: #075A79;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #363636;
+    padding: 10px;
+}
+header img{
+    border-radius: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+header h1, .introduct{
+    color: #fff;
+}
+.librCat{
+    margin-top: 20px;
+}
+.libros{
+    background-color: #00AAB7;
+    margin-top: 20px;
+}
+.librosTotal{
+    margin-top: 20px;
+}
+#todLosLib{
+justify-content: center;
+}
+.medium {
+    width: 300px;;
+}
+#stylesTabla{
+    margin-top: 20px;
+}
+#idTabla{
+    width: 50px;
+    align-self: c;
+}

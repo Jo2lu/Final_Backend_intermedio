@@ -42,6 +42,7 @@ app.get('/totalBooks', (req, res)=>{
 })
 
 //Libro por id ???
+/*
 app.get('/bookById/:id', (req, res)=>{
     const sql = "SELECT * FROM books WHERE books_id=;";
 
@@ -52,10 +53,11 @@ app.get('/bookById/:id', (req, res)=>{
         res.json(result)
     })
 })
+*/
 
 // Ultimos Libros
 app.get('/bookPublishersOf2023', (req, res)=>{
-    const sql = "SELECT * FROM books ORDER BY release_year Desc LIMIT 8;";
+    const sql = "SELECT * FROM books WHERE release_year LIKE 2023 LIMIT 8;";
 
     // colocar un where para indicar con exactitud el año dl 2023
     connection.query(sql, (err, result)=>{
@@ -65,6 +67,7 @@ app.get('/bookPublishersOf2023', (req, res)=>{
         res.json(result)
     })
 })
-            app.listen(3000, ()=>{
-                console.log('El servidor corre en el puerto 3000')
-            })
+
+app.listen(3000, ()=>{
+    console.log('El servidor corre en el puerto 3000')
+})

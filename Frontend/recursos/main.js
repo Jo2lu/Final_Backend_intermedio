@@ -37,7 +37,7 @@ const renderBooks = (data) => {
                 <i class="cart plus icon"></i>
                 $${libro.price}
             </button>
-            <button id="buttonDescrip" class="ui right button teal" type="button" ><i class="eye icon"></i></button>
+            <button class="ui right button teal" type="button" onclick="openModal${libro.books_id}()"><i class="eye icon"></i></button>
             <div class="ui modal test_${libro.books_id}">
                 <i class="close icon"></i>
                 <div class="header">

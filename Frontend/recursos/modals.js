@@ -1,375 +1,124 @@
 // Modals
+function openModal1(){
+	$(".test_1").modal("show");
+}
+function openModal2(){
+	$(".test_2").modal("show");
+}
+function openModal3(){
+	$(".test_3").modal("show");
+}
+function openModal4(){
+	$(".test_4").modal("show");
+}
+function openModal5(){
+	$(".test_5").modal("show");
+}
+function openModal6(){
+	$(".test_6").modal("show");
+}
+function openModal7(){
+	$(".test_7").modal("show");
+}
+function openModal8(){
+	$(".test_8").modal("show");
+}
+function openModal9(){
+	$(".test_9").modal("show");
+}
+function openModal10(){
+	$(".test_10").modal("show");
+}
 
-$(function () {
-	$("#test_1").click(function () {
-		$(".test_1").modal('show');
-	});
-	$(".test_1").modal({
-		closable: true
-	});
-});
+function openModal11(){
+	$(".test_11").modal("show");
+}
+function openModal12(){
+	$(".test_12").modal("show");
+}
+function openModal13(){
+	$(".test_13").modal("show");
+}
+function openModal14(){
+	$(".test_14").modal("show");
+}
+function openModal15(){
+	$(".test_15").modal("show");
+}
+function openModal16(){
+	$(".test_16").modal("show");
+}
+function openModal17(){
+	$(".test_17").modal("show");
+}
+function openModal18(){
+	$(".test_18").modal("show");
+}
+function openModal19(){
+	$(".test_19").modal("show");
+}
 
-$(function () {
-	$("#test_2").click(function () {
-		$(".test_2").modal('show');
-	});
-	$(".test_2").modal({
-		closable: true
-	});
-});
+function openModal20(){
+	$(".test_20").modal("show");
+}
+function openModal21(){
+	$(".test_21").modal("show");
+}
+function openModal22(){
+	$(".test_22").modal("show");
+}
+function openModal23(){
+	$(".test_23").modal("show");
+}
+function openModal24(){
+	$(".test_24").modal("show");
+}
+function openModal25(){
+	$(".test_25").modal("show");
+}
+function openModal26(){
+	$(".test_26").modal("show");
+}
+function openModal27(){
+	$(".test_27").modal("show");
+}
+function openModal28(){
+	$(".test_28").modal("show");
+}
+function openModal29(){
+	$(".test_29").modal("show");
+}
 
-$(function () {
-	$("#test_3").click(function () {
-		$(".test_3").modal('show');
-	});
-	$(".test_3").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_4").click(function () {
-		$(".test_4").modal('show');
-	});
-	$(".test_4").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_5").click(function () {
-		$(".test_5").modal('show');
-	});
-	$(".test_5").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_6").click(function () {
-		$(".test_6").modal('show');
-	});
-	$(".test_6").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_7").click(function () {
-		$(".test_7").modal('show');
-	});
-	$(".test_7").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_8").click(function () {
-		$(".test_8").modal('show');
-	});
-	$(".test_8").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_9").click(function () {
-		$(".test_9").modal('show');
-	});
-	$(".test_9").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_10").click(function () {
-		$(".test_10").modal('show');
-	});
-	$(".test_10").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_11").click(function () {
-		$(".test_11").modal('show');
-	});
-	$(".test_11").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_12").click(function () {
-		$(".test_12").modal('show');
-	});
-	$(".test_12").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_13").click(function () {
-		$(".test_13").modal('show');
-	});
-	$(".test_13").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_14").click(function () {
-		$(".test_14").modal('show');
-	});
-	$(".test_14").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_15").click(function () {
-		$(".test_15").modal('show');
-	});
-	$(".test_15").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_16").click(function () {
-		$(".test_16").modal('show');
-	});
-	$(".test_16").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_17").click(function () {
-		$(".test_17").modal('show');
-	});
-	$(".test_17").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_18").click(function () {
-		$(".test_18").modal('show');
-	});
-	$(".test_18").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_19").click(function () {
-		$(".test_19").modal('show');
-	});
-	$(".test_19").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_20").click(function () {
-		$(".test_20").modal('show');
-	});
-	$(".test_20").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_21").click(function () {
-		$(".test_21").modal('show');
-	});
-	$(".test_21").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_22").click(function () {
-		$(".test_22").modal('show');
-	});
-	$(".test_22").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_23").click(function () {
-		$(".test_23").modal('show');
-	});
-	$(".test_23").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_24").click(function () {
-		$(".test_24").modal('show');
-	});
-	$(".test_24").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_25").click(function () {
-		$(".test_25").modal('show');
-	});
-	$(".test_25").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_26").click(function () {
-		$(".test_26").modal('show');
-	});
-	$(".test_26").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_27").click(function () {
-		$(".test_27").modal('show');
-	});
-	$(".test_27").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_28").click(function () {
-		$(".test_28").modal('show');
-	});
-	$(".test_28").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_29").click(function () {
-		$(".test_29").modal('show');
-	});
-	$(".test_29").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_30").click(function () {
-		$(".test_30").modal('show');
-	});
-	$(".test_30").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_31").click(function () {
-		$(".test_31").modal('show');
-	});
-	$(".test_31").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_32").click(function () {
-		$(".test_32").modal('show');
-	});
-	$(".test_32").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_33").click(function () {
-		$(".test_33").modal('show');
-	});
-	$(".test_33").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_34").click(function () {
-		$(".test_34").modal('show');
-	});
-	$(".test_34").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_35").click(function () {
-		$(".test_35").modal('show');
-	});
-	$(".test_35").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_36").click(function () {
-		$(".test_36").modal('show');
-	});
-	$(".test_36").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_37").click(function () {
-		$(".test_37").modal('show');
-	});
-	$(".test_37").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_38").click(function () {
-		$(".test_38").modal('show');
-	});
-	$(".test_38").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_39").click(function () {
-		$(".test_39").modal('show');
-	});
-	$(".test_39").modal({
-		closable: true
-	});
-});
-
-$(function () {
-	$("#test_40").click(function () {
-		$(".test_40").modal('show');
-	});
-	$(".test_40").modal({
-		closable: true
-	});
-});
-
-
-/*
-
-Usar For 
-$(function () {
-	$("#buttonDescrip").click(function () {
-		$(".test_40").modal('show');
-	});
-	$(".test_40").modal({
-		closable: true
-	});
-});
-*/	
+function openModal30(){
+	$(".test_30").modal("show");
+}
+function openModal31(){
+	$(".test_31").modal("show");
+}
+function openModal32(){
+	$(".test_32").modal("show");
+}
+function openModal33(){
+	$(".test_33").modal("show");
+}
+function openModal34(){
+	$(".test_34").modal("show");
+}
+function openModal35(){
+	$(".test_35").modal("show");
+}
+function openModal36(){
+	$(".test_36").modal("show");
+}
+function openModal37(){
+	$(".test_37").modal("show");
+}
+function openModal38(){
+	$(".test_38").modal("show");
+}
+function openModal39(){
+	$(".test_39").modal("show");
+}
+function openModal40(){
+	$(".test_40").modal("show");
+}
